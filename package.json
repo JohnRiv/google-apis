@@ -1,5 +1,5 @@
 {
-  "name": "@polymer/google-apis",
+  "name": "@em-polymer/google-apis",
   "flat": true,
   "version": "3.0.0",
   "description": "Web components to load Google API libraries",
