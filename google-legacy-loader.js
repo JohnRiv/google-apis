@@ -1,4 +1,6 @@
 import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
+import { IronJsonpLibraryBehavior } from '../../@polymer/iron-jsonp-library/iron-jsonp-library.js';
+
 /*
 Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
 This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
@@ -17,7 +19,7 @@ Polymer({
   is: 'google-legacy-loader',
 
   behaviors: [
-    Polymer.IronJsonpLibraryBehavior,
+    IronJsonpLibraryBehavior,
   ],
 
   properties: {
